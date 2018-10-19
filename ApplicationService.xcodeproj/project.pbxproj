@@ -14,6 +14,10 @@
 		AA9ADFE7217A1F6000321F15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9ADFE5217A1F6000321F15 /* LaunchScreen.storyboard */; };
 		AA9ADFF2217A1F6000321F15 /* ApplicationServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9ADFF1217A1F6000321F15 /* ApplicationServiceTests.swift */; };
 		AA9ADFFD217A1F6000321F15 /* ApplicationServiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9ADFFC217A1F6000321F15 /* ApplicationServiceUITests.swift */; };
+		AA9AE00B217A1F9B00321F15 /* ApplicationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AE00A217A1F9B00321F15 /* ApplicationService.swift */; };
+		AA9AE00D217A251600321F15 /* ControllerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AE00C217A251600321F15 /* ControllerService.swift */; };
+		AA9AE00F217A273500321F15 /* Dependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AE00E217A273500321F15 /* Dependency.swift */; };
+		AA9AE011217A2EED00321F15 /* TestDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9AE010217A2EED00321F15 /* TestDependency.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		AA9ADFF8217A1F6000321F15 /* ApplicationServiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplicationServiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9ADFFC217A1F6000321F15 /* ApplicationServiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationServiceUITests.swift; sourceTree = "<group>"; };
 		AA9ADFFE217A1F6000321F15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9AE00A217A1F9B00321F15 /* ApplicationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationService.swift; sourceTree = "<group>"; };
+		AA9AE00C217A251600321F15 /* ControllerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerService.swift; sourceTree = "<group>"; };
+		AA9AE00E217A273500321F15 /* Dependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependency.swift; sourceTree = "<group>"; };
+		AA9AE010217A2EED00321F15 /* TestDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDependency.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,9 @@
 				AA9ADFE3217A1F6000321F15 /* Assets.xcassets */,
 				AA9ADFE5217A1F6000321F15 /* LaunchScreen.storyboard */,
 				AA9ADFE8217A1F6000321F15 /* Info.plist */,
+				AA9AE00A217A1F9B00321F15 /* ApplicationService.swift */,
+				AA9AE00C217A251600321F15 /* ControllerService.swift */,
+				AA9AE00E217A273500321F15 /* Dependency.swift */,
 			);
 			path = ApplicationService;
 			sourceTree = "<group>";
@@ -112,6 +123,7 @@
 			children = (
 				AA9ADFF1217A1F6000321F15 /* ApplicationServiceTests.swift */,
 				AA9ADFF3217A1F6000321F15 /* Info.plist */,
+				AA9AE010217A2EED00321F15 /* TestDependency.swift */,
 			);
 			path = ApplicationServiceTests;
 			sourceTree = "<group>";
@@ -257,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA9ADFDF217A1F5F00321F15 /* ViewController.swift in Sources */,
+				AA9AE00F217A273500321F15 /* Dependency.swift in Sources */,
+				AA9AE00B217A1F9B00321F15 /* ApplicationService.swift in Sources */,
 				AA9ADFDD217A1F5F00321F15 /* AppDelegate.swift in Sources */,
+				AA9AE00D217A251600321F15 /* ControllerService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9AE011217A2EED00321F15 /* TestDependency.swift in Sources */,
 				AA9ADFF2217A1F6000321F15 /* ApplicationServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
